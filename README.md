@@ -1,28 +1,28 @@
 # 🌱 Plant Disease Prediction with CNN
 
 A deep learning project that uses **Convolutional Neural Networks (CNNs)** to detect and classify plant diseases from leaf images.  
-This project is built using **TensorFlow / Keras** and trained on the **PlantVillage dataset**.
+The model is built using **TensorFlow / Keras** and trained on the **PlantVillage dataset**.
 
 ---
 
 ## 📌 Project Overview
 
-Plant diseases can significantly affect crop yield and food security.  
-This project aims to automatically identify plant diseases by analyzing images of plant leaves using a CNN-based image classification model.
+Plant diseases can severely impact crop yield and food security 🌾.  
+This project aims to automatically identify plant diseases by analyzing images of plant leaves using a CNN-based image classification approach.
 
 The model learns visual patterns such as:
-- Leaf color
-- Spots and lesions
-- Texture variations
+- 🎨 Leaf color variations  
+- 🔴 Spots, lesions, and discoloration  
+- 🧬 Texture and shape features  
 
 ---
 
 ## 🧠 Model Highlights
 
-- Image classification using **CNN**
-- Trained on multiple plant species and disease categories
-- Uses **ImageDataGenerator** for data preprocessing and augmentation
-- Achieves high validation accuracy on unseen data
+- 📷 Image classification using **CNN**
+- 🌿 Supports multiple plant species and disease categories
+- 🔄 Uses **ImageDataGenerator** for preprocessing and data augmentation
+- 📈 Achieves high validation accuracy on unseen data
 
 ---
 
@@ -32,23 +32,24 @@ The model learns visual patterns such as:
 🔗 https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
 
 ### Dataset Details
-- Contains healthy and diseased leaf images
-- Multiple plant species (e.g., Potato, Tomato, Apple, Corn, etc.)
-- RGB images organized by class folders
+- ✅ Healthy and diseased leaf images
+- 🌱 Multiple plant species (Potato, Tomato, Apple, Corn, etc.)
+- 🖼️ RGB images organized into class-wise folders
 
-> ⚠️ Dataset is **not included** in this repository due to size limitations.  
-Please download it separately from Kaggle.
+> ⚠️ **Note:**  
+> The dataset is **not included** in this repository due to size limitations.  
+> Please download it separately from Kaggle.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- TensorFlow / Keras
-- NumPy
-- Matplotlib
-- OpenCV
-- Jupyter Notebook
+- 🐍 Python  
+- 🧠 TensorFlow / Keras  
+- 📊 NumPy  
+- 📉 Matplotlib  
+- 📸 OpenCV  
+- 📓 Jupyter Notebook  
 
 ---
 
@@ -63,77 +64,85 @@ Plant-Disease-Prediction-with-CNN/
 └── requirements.txt
 ```
 
+
 ---
 
 ## ⚙️ Setup & Installation
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/avviiiral/Plant-Disease-Prediction-with-CNN.git
 cd Plant-Disease-Prediction-with-CNN
 ```
-2️⃣ Install dependencies
-```
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 ```
-3️⃣ Download the dataset
+### 3️⃣ Download the Dataset
 
 Download from Kaggle:
 ```
 https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
 ```
-Extract and organize into folders like:
+Extract and organize the dataset as:
 ```
 dataset/
-  ├── train/
-  ├── val/
-  └── test/
+├── train/
+├── val/
+└── test/
+
+(Update dataset paths in the notebook if required.)
 ```
-(Adjust paths in the notebook if needed.)
 
 🚀 How to Run
 
-1. Open Jupyter Notebook:
-```
+1. Launch Jupyter Notebook:
+ ```
 jupyter notebook
 ```
-
-2. Open:
+2. Open the notebook:
 ```
 Plant Disease Prediction with CNN.ipynb
 ```
-
 3. Run all cells to:
 
-  Load data
+📥 Load and preprocess the dataset
 
- Train the CNN model
+🧠 Train the CNN model
 
-  Evaluate performance
+📊 Evaluate model performance
+
+---
 
 📊 Results
 
-High training and validation accuracy
+✅ High training and validation accuracy
 
-Low validation loss indicating good generalization
+📉 Low validation loss indicating good generalization
 
-Model performs well on unseen plant leaf images
+🌿 Performs well on unseen plant leaf images
 
-(Exact metrics may vary depending on hardware and training configuration.)
+Results may vary depending on hardware and training parameters.
+
+---
 
 🔮 Future Improvements
 
-Deploy model using Flask / FastAPI
+🌐 Deploy the model using Flask or FastAPI
 
-Add real-time prediction via webcam or mobile app
+📱 Build a real-time prediction system (webcam or mobile app)
 
-Use Transfer Learning (ResNet, EfficientNet, MobileNet)
+🧠 Apply Transfer Learning (ResNet, EfficientNet, MobileNet)
 
-Improve dataset balance and augmentation
+⚖️ Improve dataset balance and augmentation techniques
+
+---
 
 📜 License
 
-This project is for educational and research purposes.
+This project is intended for educational and research purposes only.
+
+---
 
 👨‍💻 Author
 
