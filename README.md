@@ -1,11 +1,10 @@
-# 🌱 Plant Disease Prediction with CNN
+# Plant Disease Prediction with CNN
 
-A deep learning project that uses **Convolutional Neural Networks (CNNs)** to detect and classify plant diseases from leaf images.  
-The model is built using **TensorFlow / Keras** and trained on the **PlantVillage dataset**.
+A deep-learning image-classification project using Convolutional Neural Networks (CNNs), TensorFlow/Keras, and the PlantVillage leaf-image dataset to explore plant-disease classification.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Plant diseases can severely impact crop yield and food security 🌾.  
 This project aims to automatically identify plant diseases by analyzing images of plant leaves using a CNN-based image classification approach.
@@ -17,16 +16,16 @@ The model learns visual patterns such as:
 
 ---
 
-## 🧠 Model Highlights
+## Model Approach
 
 - 📷 Image classification using **CNN**
 - 🌿 Supports multiple plant species and disease categories
 - 🔄 Uses **ImageDataGenerator** for preprocessing and data augmentation
-- 📈 Achieves high validation accuracy on unseen data
+- Validation performance should be reported from a reproducible held-out evaluation; no numeric metric is claimed here.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **PlantVillage Dataset (Kaggle)**  
 🔗 https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
@@ -42,7 +41,7 @@ The model learns visual patterns such as:
 
 ---
 
-## 🛠️ Tech Stack
+## Technologies
 
 - 🐍 Python  
 - 🧠 TensorFlow / Keras  
@@ -53,7 +52,7 @@ The model learns visual patterns such as:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Plant-Disease-Prediction-with-CNN/
@@ -67,7 +66,7 @@ Plant-Disease-Prediction-with-CNN/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup and Installation
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -114,19 +113,13 @@ Plant Disease Prediction with CNN.ipynb
 
 ---
 
-📊 Results
+## Results and Evaluation
 
-✅ High training and validation accuracy
-
-📉 Low validation loss indicating good generalization
-
-🌿 Performs well on unseen plant leaf images
-
-Results may vary depending on hardware and training parameters.
+Evaluate the trained model on a held-out test set and report accuracy, per-class precision/recall, a confusion matrix, and any class imbalance. Results depend on the dataset split, preprocessing, and training settings. Do not interpret notebook results as field-ready agricultural diagnosis without external validation.
 
 ---
 
-🔮 Future Improvements
+## Potential Improvements
 
 🌐 Deploy the model using Flask or FastAPI
 
@@ -138,13 +131,18 @@ Results may vary depending on hardware and training parameters.
 
 ---
 
-📜 License
+## License
 
 This project is intended for educational and research purposes only.
 
 ---
 
-👨‍💻 Author
+## Author
 
 Aviral Goyal
 🔗 GitHub: https://github.com/avviiiral
+
+
+## Project Keywords
+
+`deep-learning` `cnn` `plant-disease-classification` `computer-vision` `tensorflow` `keras` `image-classification` `python`
